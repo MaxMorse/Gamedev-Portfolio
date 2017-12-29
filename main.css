@@ -88,6 +88,8 @@
 	border: 1px solid blue;
 	border-radius: 25px;
 	float: left;
+	overflow: hidden;
+	padding: 15px;
 }
 
 .entry_text {
@@ -97,6 +99,7 @@
 .entry_thumb {
 	width: 33.33%;
 	overflow: hidden;
+	
 }
 .project_covers {
 	
@@ -114,6 +117,8 @@
 
 }
 .entry_thumb img {
+	border: 1px solid black;
+	border-radius: 25px;
 	max-width: 100%;
 	max-height: 100%;
 	width: 100%;
